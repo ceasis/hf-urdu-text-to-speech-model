@@ -2,7 +2,8 @@
 
 This release contains the three-step Matcha acoustic model used for new Urdu speech in QnVoice development build 14. The acoustic graph runs with ONNX Runtime and a separate HiFi-GAN vocoder. Both models run offline after setup and produce 22.05 kHz mono speech from Urdu script.
 
-- [White paper](QnVoice-Urdu-TTS-White-Paper.pdf)
+- [iOS text to speech research paper](QnVoice-Urdu-Text-to-Speech-for-iOS.pdf)
+- [All versions of the preprint on Zenodo](https://doi.org/10.5281/zenodo.24029948)
 - [Original Matcha model on Hugging Face](https://huggingface.co/AhsanTalal/urdu-matcha-tts/tree/d2201d251bf13bc461e7ef88ba889aa780246ee4)
 - [Benchmark prompts and measurements](benchmarks)
 - [Paired evaluation audio](samples/benchmark)
