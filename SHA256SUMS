@@ -1,0 +1,3 @@
+9c62abdac9c3c179c198a2aa89683246bd6c54e867b2c76d57fff198db5865f4  model/urdu-acoustic.onnx
+0e30fbb72fd80e0b757ca7931a889a698887cefb1f7ed92deecbc3c28a4f2c55  model/urdu-vocoder.onnx
+10cdb185b84ca8d5fd29b20413b63691426c72b5a1a60cd6994ad6310e321c0d  model/urdu-vocabulary.json

@@ -1,0 +1,23 @@
+QnVoice Urdu TTS research candidate
+
+The acoustic graph is derived from AhsanTalal/urdu-matcha-tts, revision
+d2201d251bf13bc461e7ef88ba889aa780246ee4, published under Apache-2.0.
+https://huggingface.co/AhsanTalal/urdu-matcha-tts/tree/d2201d251bf13bc461e7ef88ba889aa780246ee4
+
+QnVoice modified the exported solver to use three flow steps and trained an
+additional convolutional mel correction layer on synthetic teacher outputs.
+The retained text encoder, flow estimator and vocabulary come from the teacher.
+
+The teacher author identifies Humair Munir's UrduSpeech as the training source.
+Its card describes a derivative of AI4Bharat's Rasa. Both dataset cards list
+CC BY 4.0. No corpus recordings are included or were downloaded for this run.
+https://huggingface.co/datasets/humairawan/UrduSpeech
+https://huggingface.co/datasets/ai4bharat/Rasa
+https://creativecommons.org/licenses/by/4.0/
+
+HiFi-GAN v1 waveform synthesis is by Jungil Kong and collaborators. This
+package reuses the sherpa-onnx ONNX conversion bundled in QnVoice.
+https://github.com/jik876/hifi-gan
+https://github.com/k2-fsa/sherpa-onnx/releases/tag/vocoder-models
+
+ONNX Runtime is by Microsoft and contributors under the MIT License.
