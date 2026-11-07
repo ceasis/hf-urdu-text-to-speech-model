@@ -4,6 +4,7 @@ This release contains the three-step Matcha acoustic model used for new Urdu spe
 
 - [Text to speech in QnVoice for iOS](QnVoice-Urdu-Text-to-Speech-for-iOS.pdf)
 - [All versions of the preprint on Zenodo](https://doi.org/10.5281/zenodo.24029948)
+- [QnVoice Urdu Matcha TTS on Hugging Face](https://huggingface.co/CholoAsis/qnvoice-urdu-matcha-tts)
 - [Original Matcha model on Hugging Face](https://huggingface.co/AhsanTalal/urdu-matcha-tts/tree/d2201d251bf13bc461e7ef88ba889aa780246ee4)
 - [Benchmark prompts and measurements](benchmarks)
 - [Paired evaluation audio](samples/benchmark)
